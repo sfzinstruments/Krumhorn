@@ -1,0 +1,17 @@
+// Krumhorn.sfz
+// Oldie (14th-15th century) sampled from an Ensoniq EPS.
+//
+// Contributed by: Worra 
+//
+// Converted from the original GigaSampler version by S. Christian Collins
+// www.schristiancollins.com
+
+<control>
+default_path=samples/
+
+<group> ampeg_attack=0.120  ampeg_release=0.3  pitchlfo_freq=5  pitchlfo_depthcc1=40
+
+<region> sample=a0-d#4.wav   pitch_keycenter=61  lokey=20  hikey=62   tune=42
+<region> sample=e4-a4.wav    pitch_keycenter=68  lokey=63  hikey=68   tune=62
+<region> sample=a#4-d#5.wav  pitch_keycenter=72  lokey=69  hikey=74   tune=-40
+<region> sample=e5-c8.wav    pitch_keycenter=79  lokey=75  hikey=107  tune=22
